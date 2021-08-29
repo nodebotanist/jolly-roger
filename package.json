@@ -2,7 +2,7 @@
   "name": "jolly-roger",
   "version": "0.0.0",
   "description": "GUI for the Bus Pirate",
-  "main": "index.js",
+  "main": "public/electron.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nodebotanist/jolly-roger.git"
@@ -26,6 +26,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-electron": "electron .",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,6 +50,8 @@
     ]
   },
   "devDependencies": {
+    "electron": "^14.0.0",
+    "electron-is-dev": "^2.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.3.2"
